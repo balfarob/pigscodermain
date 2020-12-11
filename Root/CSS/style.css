@@ -1,0 +1,40 @@
+html {
+    font-size: 79.5%
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/358136.jpg);
+}
+.bg-light {
+    background-color: pink!important;
+}
+.list-group-item {
+    z-index: 2;
+    color: black;
+    background-color: lavenderblush!important;
+    border-color: pink;
+}
+.page-footer{
+    background-color: pink!important;
+}
+.pigs1:hover{
+   transform: scale(1.3);
+}
+.pigs2:hover{
+    transform: scale(1.3);
+}
+.pigs3:hover{
+    transform: scale(1.3);
+}
+h1:hover{
+    background-color:lavenderblush;
+} 
+div {
+  background-color: pink;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: pink;}
+  to {background-color: lavenderblush;}
+}
